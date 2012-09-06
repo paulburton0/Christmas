@@ -1,0 +1,116 @@
+body{
+	font-family: sans-serif;
+	background: rgb(255, 185, 185);
+	background-image: url(http://mountaintopweather.com/christmas/images/215014_93425129.gif); 
+}
+
+.formtable{
+	border-width: 0px;
+	position: absolute;
+	left: 200px;
+	top: 150px;	
+}
+
+.leftcell{
+	text-align: right;
+}
+
+#error, #c_error{
+	position: absolute;
+	z-index: 5;
+	margin-left: auto;
+	margin-top: 20px;
+	background-color: rgb(255, 255, 150);
+	color: red;
+	font-weight: bold;
+	padding: 15px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: red;
+	width: 70%;
+}
+
+span.links{
+	text-align: center;
+	font-size: 10pt;
+	background: rgb(100, 230, 100);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(110, 210, 110);
+	padding: 5px;
+}
+
+#main{
+	background: rgb(100, 230, 100);
+	border-style: solid;
+	border-width: 3px;
+	border-color: rgb(50, 150, 50);
+	margin-top: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 15px;
+}
+
+#links{
+	text-align: center;
+}
+
+.inputdiv{
+	float: left;
+	width: 200px;
+	text-align: right;
+}
+
+#links_list{
+	width: 500px;
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+
+a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+a:active{
+	color: black;
+	text-decoration: none;
+}
+
+#wishlist{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-collapse: collapse;
+}
+
+.wishlist_td{
+	padding: 4px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+#toggler{
+	font-size: 10pt;
+	margin-bottom: 10px;
+}
+
+.emphasis{
+	text-decoration: underline;
+}
+
+
+#error_toggler{
+	font-size: 10pt;
+	color: blue;
+}
